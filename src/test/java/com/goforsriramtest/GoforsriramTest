@@ -1,0 +1,24 @@
+package com.goforsriramtest;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+class GoforsriramTest
+{
+	
+	
+	@Test
+	public void testPrintKeyword(){
+		assertEquals("initial", Goforsriramclass.printKeyWord());
+	}
+	
+	@Test
+    public void testLucky() {
+        assertEquals(7, MagicBuilder.getLucky());
+    }
+}
